@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from '../Home'
 
 const App =() => {
-  const data = fetch('/holaMundo').then(console.log);
-  console.log(data);
+
   return (
     <div>
+      <Home/>
     </div>
   );
 }
