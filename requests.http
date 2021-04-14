@@ -1,0 +1,11 @@
+GET http://localhost:8080/read-product
+
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+DELETE http://localhost:8080/api/products/606912473314991f787a47af
+Content-Type: application/json
+
+
+PUT http://localhost:8080/api/products/6077377f7cfdda1c108fd093
+Content-Type: application/json

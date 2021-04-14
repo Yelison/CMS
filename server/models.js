@@ -8,7 +8,7 @@ const db = mongoose.createConnection("mongodb://localhost:27017/cms", {
 
 configFiles.forEach(({ endpoint, fields }) => {
   let schema = {};
-
+ 
   fields.forEach((field, index) => {
     const { fieldName, ...props } = field;
 
